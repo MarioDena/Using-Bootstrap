@@ -1,6 +1,7 @@
 header {
   box-sizing: border-box;
   & > .regular-nav {
+    font-family: "Roboto", sans-serif;
     padding: 0;
     & > .first-row {
       width: 100%;
@@ -38,7 +39,6 @@ header {
       margin-top: 10px;
       margin-bottom: 10px;
       cursor: pointer;
-      font-family: "Roboto", sans-serif;
       &__search {
         margin-top: 2px;
         font-weight: 100;
@@ -68,7 +68,7 @@ header {
       margin-top: 8px;
       font-weight: bold;
       color: white;
-      
+
       & .--subButton {
         padding-left: 5px;
         background-color: white;

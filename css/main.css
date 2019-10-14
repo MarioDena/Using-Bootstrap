@@ -4,6 +4,7 @@ header {
 }
 
 header > .regular-nav {
+  font-family: "Roboto", sans-serif;
   padding: 0;
 }
 
@@ -45,7 +46,6 @@ header > .regular-nav .second-row {
   margin-top: 10px;
   margin-bottom: 10px;
   cursor: pointer;
-  font-family: "Roboto", sans-serif;
 }
 
 header > .regular-nav .second-row__search {
@@ -96,5 +96,14 @@ img {
 
 html {
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 1300px;
+  margin: 0 auto;
+  background-color: #ececec;
+  overflow-x: hidden;
+}
+
+.iconN {
+  margin-bottom: 8px;
+  width: 30px;
 }
 /*# sourceMappingURL=main.css.map */
