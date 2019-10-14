@@ -10,6 +10,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/main.css" />
     <title>Project</title>
   </head>
@@ -39,12 +43,12 @@
             </svg>
           </span>
           <span class="float-right">
-            <span>SIGN IN</span>
-            <span>SUBSCRIBE ></span>
+            <span class="float-right__buttons">SIGN IN</span>
+            <span class="float-right__buttons --subButton">SUBSCRIBE ></span>
           </span>
         </div>
         <div class="second-row d-flex justify-content-around">
-          <p>U.S.</p>
+          <p class="second-row__first">U.S.</p>
           |
           <p>World</p>
           |
@@ -63,13 +67,21 @@
           <p>Opinion</p>
           |
           <p>Vantage</p>
+          <p class="second-row__search">
+            Search
+            <img
+              class="--smallIcon"
+              src="./img/search-black.png"
+              alt="search"
+            />
+          </p>
         </div>
       </nav>
 
       <nav class="navbar sticky-top d-lg-none d-xl-none mobile-nav">
         <span class="logo float-left">
           <svg
-            class="mobile-nav-svg"
+            class="mobile-logo"
             version="1.1"
             id="Layer_2"
             x="0px"
@@ -88,16 +100,14 @@
         </span>
         <span class="float-right">
           <span>SIGN IN</span>
-          <span class="sub">SUBSCRIBE ></span>
-          <i class="fas fa-bars"></i>
+          <span class="--subButton">SUBSCRIBE ></span>
+          <span
+            ><img class="float-right__menu" src="img/menu.png" alt="menu"
+          /></span>
         </span>
       </nav>
     </header>
-    <main class="container-fluid">
-      
-    </main>
-    <footer class="container-fluid">
-      
-    </footer>
+    <main class="container-fluid"></main>
+    <footer class="container-fluid"></footer>
   </body>
 </html>

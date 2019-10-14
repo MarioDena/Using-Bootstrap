@@ -1,0 +1,100 @@
+header {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header > .regular-nav {
+  padding: 0;
+}
+
+header > .regular-nav > .first-row {
+  width: 100%;
+  background-color: red;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+header > .regular-nav > .first-row > .logo svg {
+  height: 60px;
+  fill: white;
+}
+
+header > .regular-nav .float-right {
+  margin-top: 36px;
+}
+
+header > .regular-nav .float-right__buttons {
+  color: white;
+  font-weight: bold;
+  padding: 0 12px;
+}
+
+header > .regular-nav .float-right .--subButton {
+  background-color: white;
+  color: red;
+}
+
+header > .regular-nav .float-left {
+  margin-top: 36px;
+  font-size: 14px;
+}
+
+header > .regular-nav .second-row {
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+
+header > .regular-nav .second-row__search {
+  margin-top: 2px;
+  font-weight: 100;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+header > .regular-nav .second-row__search .--smallIcon {
+  width: 15px;
+  margin-left: 10px;
+}
+
+header > .regular-nav .second-row__first {
+  margin-left: 10px;
+}
+
+header > .mobile-nav {
+  background-color: red;
+}
+
+header > .mobile-nav .mobile-logo {
+  height: 20px;
+  fill: white;
+}
+
+header > .mobile-nav .float-right {
+  margin-top: 8px;
+  font-weight: bold;
+  color: white;
+}
+
+header > .mobile-nav .float-right .--subButton {
+  padding-left: 5px;
+  background-color: white;
+  color: red;
+}
+
+header > .mobile-nav .float-right__menu {
+  width: 35px;
+  margin-left: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
