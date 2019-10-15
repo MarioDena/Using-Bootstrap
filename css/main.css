@@ -266,7 +266,7 @@ header > .mobile-nav .float-right__menu {
 .stikyImg {
   position: absolute;
   top: 100px;
-  right: 0px;
+  right: 0;
   width: 100px;
   height: 20px;
 }
@@ -332,6 +332,7 @@ footer .copyright {
   .newsletter {
     margin-top: 5px;
   }
+  
   .newsletter img {
     max-height: 300px;
   }
@@ -341,7 +342,7 @@ footer .copyright {
   float: right;
   height: 40px;
   -ms-flex-item-align: end;
-      align-self: flex-end;
+  align-self: flex-end;
 }
 
 .containerIcon {
@@ -439,4 +440,3 @@ section {
 .clickable {
   cursor: pointer;
 }
-/*# sourceMappingURL=main.css.map */

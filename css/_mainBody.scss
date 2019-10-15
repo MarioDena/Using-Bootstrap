@@ -13,17 +13,19 @@
   margin-bottom: 10px;
   color: black;
   font-family: "Roboto Condensed", sans-serif;
+  
   & .row {
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
     padding-top: 10px;
+
     & h5 {
       padding-left: 10px;
       cursor: pointer;
     }
   }
 
-  & img{
+  & img {
     cursor: pointer;
   }
 
@@ -39,6 +41,7 @@
 
 .latestNews {
   margin-bottom: 10px;
+  
   & .row {
     border-bottom: 1px solid lightgray;
     padding-bottom: 10px;
@@ -162,7 +165,7 @@
 .stikyImg {
   position: absolute;
   top: 100px;
-  right: 0px;
+  right: 0;
   width: 100px;
   height: 20px;
 }

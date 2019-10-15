@@ -1,15 +1,18 @@
 header {
   box-sizing: border-box;
+
   & > .regular-nav {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
     padding: 0;
+
     & > .first-row {
       width: 100%;
       background-color: #f72210;
       padding: 20px;
       text-align: center;
       color: white;
+
       & > .logo svg {
         padding-left: 80px;
         height: 60px;
@@ -19,6 +22,7 @@ header {
 
     & .float-right {
       margin-top: 36px;
+
       &__buttons {
         color: white;
         font-weight: bold;
@@ -41,14 +45,17 @@ header {
       margin-top: 20px;
       margin-bottom: 10px;
       border-bottom: 2px solid rgb(236, 236, 236);
+
       & p {
         cursor: pointer;
       }
+
       &__search {
         font-weight: 100;
         font-size: 18px;
         color: rgb(177, 177, 177);
         cursor: pointer;
+        
         & .--smallIcon {
           padding-top: 3px;
           width: 22px;
