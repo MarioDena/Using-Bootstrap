@@ -1,16 +1,17 @@
 header {
   box-sizing: border-box;
   & > .regular-nav {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 20px;
     padding: 0;
     & > .first-row {
       width: 100%;
-      background-color: red;
+      background-color: #f72210;
       padding: 20px;
       text-align: center;
       color: white;
       & > .logo svg {
+        padding-left: 80px;
         height: 60px;
         fill: white;
       }
@@ -39,16 +40,21 @@ header {
       font-weight: bold;
       margin-top: 20px;
       margin-bottom: 10px;
-      cursor: pointer;
       border-bottom: 2px solid rgb(236, 236, 236);
+      & p {
+        cursor: pointer;
+      }
       &__search {
-        margin-top: 4px;
         font-weight: 100;
-        font-size: 16px;
-        color: gray;
+        font-size: 18px;
+        color: rgb(177, 177, 177);
+        cursor: pointer;
         & .--smallIcon {
-          width: 15px;
+          padding-top: 3px;
+          width: 22px;
           margin-left: 10px;
+          padding-bottom: 5px;
+          cursor: pointer;
         }
       }
 

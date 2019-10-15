@@ -25,21 +25,21 @@ html {
 }
 
 h3 {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
   font-weight: 700;
   margin: 8px 0;
 }
 
 h4 {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   margin: 8px 0;
 }
 
 h5 {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -49,12 +49,13 @@ section {
 }
 
 .sec-title {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: rgb(116, 116, 116);
   text-transform: uppercase;
   margin-bottom: 8px;
+  cursor: pointer;
 }
 
 .wrap {
@@ -62,6 +63,10 @@ section {
   margin-top: 10px;
 }
 
-.summary{
-    font-family: 'Roboto Condensed', sans-serif;
+.summary {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.clickable {
+  cursor: pointer;
 }

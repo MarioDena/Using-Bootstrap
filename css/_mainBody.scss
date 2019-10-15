@@ -19,6 +19,7 @@
     padding-top: 10px;
     & h5 {
       padding-left: 10px;
+      cursor: pointer;
     }
   }
 
@@ -28,6 +29,7 @@
     font-size: 13px;
     padding-left: 10px;
     font-weight: bold;
+    cursor: pointer;
   }
 }
 
@@ -43,6 +45,7 @@
     margin-top: 10px;
     font-family: "Roboto Condensed", sans-serif;
     border-top: 1px solid grey;
+    cursor: pointer;
   }
 
   & img {
@@ -52,6 +55,7 @@
 
   & h5 {
     padding-top: 10px;
+    cursor: pointer;
   }
 
   & .summary {
@@ -66,6 +70,7 @@
     margin-top: 10px;
     font-family: "Roboto Condensed", sans-serif;
     border-top: 1px solid grey;
+    cursor: pointer;
   }
 
   & img {
@@ -73,14 +78,17 @@
     float: left;
     max-width: 130px;
     margin-right: 10px;
+    cursor: pointer;
   }
 
   & h5 {
     padding-top: 10px;
+    cursor: pointer;
   }
 
   & .summary {
     font-size: 14px;
+    cursor: pointer;
   }
 }
 
@@ -89,6 +97,7 @@
 
   & .summary {
     color: gray;
+    cursor: pointer;
   }
 }
 
@@ -99,28 +108,40 @@
 }
 
 .inTheMagazine {
-  margin-bottom: 5px;
+  margin-top: 60px;
+  margin-bottom: 20px;
 
   & .red {
     color: white;
     background-color: red;
     margin-right: 10px;
     padding: 3px;
+    cursor: pointer;
   }
 
   & img {
     margin-bottom: 10px;
+    cursor: pointer;
   }
 
   & .summary {
     margin-bottom: 40px;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
   }
 }
 
 .featuredSlideshows {
   margin-top: 5px;
+
+  & img {
+    cursor: pointer;
+  }
+
+  & h3 {
+    cursor: pointer;
+  }
 
   & .inner-caption {
     font-size: 22px;
@@ -132,4 +153,49 @@
 .subscribe {
   background-color: #f4f5f6;
   padding: 32px;
+}
+
+.stikyImg {
+  position: absolute;
+  top: 100px;
+  right: 0px;
+  width: 100px;
+  height: 20px;
+}
+
+.whiteSpace {
+  width: 30px;
+  height: 20px;
+}
+
+.topStories {
+  margin-top: 1px;
+
+  & h3 {
+    cursor: pointer;
+  }
+}
+
+.featuredStories {
+  margin-top: 1px;
+
+  & h3 {
+    cursor: pointer;
+  }
+
+  & img {
+    cursor: pointer;
+  }
+}
+
+.editorsPick {
+  margin-top: 1px;
+
+  & h3 {
+    cursor: pointer;
+  }
+
+  & img {
+    cursor: pointer;
+  }
 }

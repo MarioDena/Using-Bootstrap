@@ -1,16 +1,21 @@
 .socialIcons {
-  width: 25px;
+  width: 22px;
   fill: grey;
   margin: 7px;
 }
 
 .logoFooter {
-  fill: orangered;
+  fill: red;
   height: 40px;
 }
 
 footer {
   margin-top: 20px;
+
+  & .copyright {
+    color: grey;
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -43,4 +48,15 @@ footer {
   text-transform: uppercase;
   border-radius: 0;
   margin-top: 10px;
+}
+
+.links {
+  font-size: 14px;
+
+  & span {
+    border-right: 1px solid lightgray;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: grey;
+  }
 }

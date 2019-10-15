@@ -26,6 +26,7 @@
           <span class="float-left">Mon, Oct 14, 2019</span>
           <span class="logo">
             <svg
+              class="clickable"
               version="1.1"
               id="Layer_1"
               x="0px"
@@ -43,8 +44,10 @@
             </svg>
           </span>
           <span class="float-right">
-            <span class="float-right__buttons">SIGN IN</span>
-            <span class="float-right__buttons --subButton">SUBSCRIBE ></span>
+            <span class="float-right__buttons clickable">SIGN IN</span>
+            <span class="float-right__buttons --subButton clickable"
+              >SUBSCRIBE ></span
+            >
           </span>
         </div>
         <div class="second-row d-flex justify-content-around">
@@ -75,6 +78,8 @@
               alt="search"
             />
           </p>
+          <div class="whiteSpace"></div>
+          <p><img class="stikyImg" src="./img/Screenshot89.png" alt="" /></p>
         </div>
       </nav>
 
@@ -99,10 +104,13 @@
           </svg>
         </span>
         <span class="float-right">
-          <span>SIGN IN</span>
-          <span class="--subButton">SUBSCRIBE ></span>
+          <span class="clickable">SIGN IN</span>
+          <span class="--subButton clickable">SUBSCRIBE ></span>
           <span
-            ><img class="float-right__menu" src="img/menu.png" alt="menu"
+            ><img
+              class="float-right__menu clickable"
+              src="img/menu.png"
+              alt="menu"
           /></span>
         </span>
       </nav>
@@ -112,7 +120,7 @@
         <div class="col-lg-8 col-md-12 col-sm-12 col-12">
           <div class="row">
             <div class="col-lg-5 col-md-5 col-sm-12 col-12 order-2 order-md-1">
-              <section class="featured-stories">
+              <section class="featuredStories">
                 <h2 class="sec-title">Featured Stories</h2>
                 <article>
                   <div class="wrap">
@@ -176,12 +184,13 @@
             <div
               class="col-lg-7 col-md-7 col-sm-12 col-12 order-1 order-md-2 mainScroll"
             >
-              <section class="topStories">
+              <section class="topStories ">
                 <h2 class="sec-title">Top Story</h2>
                 <article>
                   <div class="wrap">
                     <span class="image-caption">U.S.</span>
                     <img
+                      class="clickable"
                       src="./img/trump-erdogan-nato-summit-belgium.jpg"
                       alt="img"
                     />
@@ -835,7 +844,7 @@
               <h2 class="sec-title redColor">Subscribe</h2>
               <div class="row">
                 <div class="col-5">
-                  <img src="./img/Screenshot33.png" alt="" />
+                  <img class="clickable" src="./img/Screenshot33.png" alt="" />
                 </div>
                 <div class="col-7">
                   <h3>
@@ -856,12 +865,13 @@
               <h2 class="sec-title redColor">Newsletter</h2>
               <div class="row">
                 <div class="col-lg-6 col-md-3 col-sm-3 col-12">
-                  <img src="./img/Screenshot.32png" alt="" />
+                  <img class="clickable" src="./img/Screenshot.32png" alt="" />
                 </div>
                 <div class="col-lg-6 col-md-9 col-sm-9 col-12">
-                  <h3>Lorem ipsum dolor</h3>
+                  <h3>Daily Briefing</h3>
                   <div class="summary">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    Take back your inbox. Sign up for our newsletter and start
+                    making sense of the world around you.
                   </div>
                   <button class="btn btn-danger">Sign up ></button>
                 </div>
