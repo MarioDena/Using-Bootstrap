@@ -1,0 +1,46 @@
+.socialIcons {
+  width: 25px;
+  fill: grey;
+  margin: 7px;
+}
+
+.logoFooter {
+  fill: orangered;
+  height: 40px;
+}
+
+footer {
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+  .newsletter {
+    margin-top: 5px;
+
+    & img {
+      max-height: 300px;
+    }
+  }
+}
+
+.social {
+  float: right;
+  height: 40px;
+  align-self: flex-end;
+}
+
+.containerIcon {
+  float: right;
+  width: 200px;
+  height: 40px;
+}
+
+.btn-danger {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: red;
+  text-transform: uppercase;
+  border-radius: 0;
+  margin-top: 10px;
+}
