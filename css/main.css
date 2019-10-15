@@ -127,6 +127,10 @@ header > .mobile-nav .float-right__menu {
   cursor: pointer;
 }
 
+.opinions img {
+  cursor: pointer;
+}
+
 .opinions .author {
   color: grey;
   text-transform: uppercase;

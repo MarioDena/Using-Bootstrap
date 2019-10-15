@@ -23,6 +23,10 @@
     }
   }
 
+  & img{
+    cursor: pointer;
+  }
+
   & .author {
     color: grey;
     text-transform: uppercase;
